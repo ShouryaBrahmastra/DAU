@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./static/css/style2.css">
+    <link rel="stylesheet" href="./static/css/balloons.css">
+
+    <title>Dau</title>
+</head>
+
+<body>
+    <br>
+    <h1>!!Happy!! <br> !!Birthday!! <br> !!Dau !! <br>✨🎈🎊🎆👑🎇🍕🌭🍔🍟🍗</h1>
+
+
+    <section class="neon bd-container">
+        <div class="neon__container">
+            <div class="neon__card">
+                <svg class="neon__icon1" viewBox="0 0 48 48">
+                
+                    </svg>
+                <h1 class="neon__title">Cake</h1>
+
+                <p class="neon__description" style="text-align: center; "><br>A virtual cake for this virtual world <br><br></p>
+                <audio id="player" src="./static/Happy Birthday To You.mp3" loop autoplay></audio>
+                <button onclick="document.getElementById('player').play()"> <a href="#" class="neon__button">Click Here 
+                        
+                    </a></button>
+            </div>
+
+            <div class="neon__card">
+                <svg class="neon__icon2" viewBox="0 0 48 48">
+
+                    </svg>
+                <h1 class="neon__title">Dau</h1>
+                <p class="neon__description" style="text-align: center; ">🎊🎊Many Many Happy returns of the day.🎉🎉</p>
+                <a href="https://daubackend.herokuapp.com/" class="neon__button">Click Here to reveil my gift. 
+                        
+                    </a>
+            </div>
+
+            <div class="neon__card">
+                <svg class="neon__icon3" viewBox="0 0 48 48">
+                        
+                    </svg>
+                <h1 class="neon__title">Gifts</h1>
+                <p class="neon__description" style="text-align: center; "><br>🎁🎁A virtual gift for a special person of our Family.<br>🎁🎁<br></p>
+                <a href="./static/output_free.mp4" class="neon__button">Click here 
+                       
+                    </a>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="footer"><small> Designed and Maintained <br>By 
+        <a target="_blank" href="https://github.com/ShouryaBrahmastra">  &copy;SHOURYA GUPTA</a></small></div>
+
+    <script src="./js/confetti.js"></script>
+    <script>
+        const start = () => {
+            setTimeout(function() {
+                confetti.start();
+            });
+        };
+        start();
+    </script>
+    <script src="./js/balloons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
